@@ -1,0 +1,232 @@
+// $font-size-base:3rem;
+// $h1-font-size: 10rem;
+$font-sizes: (
+  7: 3rem,
+);
+$colors: (
+  "grey-xyz": #901b1b,
+);
+@import "bootstrap/scss/bootstrap";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  // background-color: #9b9b9b;
+}
+
+#main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  border-radius: 2px;
+  margin-inline: auto;
+}
+.grid-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.carousel-container {
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.text-black {
+  color: rgb(83, 91, 98);
+}
+.btn-bg-color {
+  background-color: #e95454;
+  color: white;
+}
+.btn-bg-color:hover {
+  background-color: #e74444;
+  color: white;
+}
+.font-weight-500-black {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #0a0a0a;
+}
+.font-weight-500-grey {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #788089;
+}
+.font-weight-600-grey {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #788089;
+}
+.font-weight-600-grid {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #0a0a0a;
+}
+.font-weight-600-red {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #e92e3d;
+}
+
+.font-weight-600-black {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #171311;
+}
+.vertical-pipe {
+  width: 4%;
+  border: 0.5px solid #d2d2d2;
+  border-color: #cecece;
+  transform: rotate(90deg);
+}
+.horizontal-pipe {
+  width: 20%;
+  border: 0.5px solid #d2d2d2;
+}
+
+@media (min-width: 2000px) {
+  .btn-bg-color {
+    background-color: #e95454;
+    color: white;
+    font-size: 2rem;
+    padding: 1.2rem;
+    border-radius: 5px;
+  }
+  .navbar-items-font-size {
+    font-size: 2rem;
+    padding: 1.2rem;
+  }
+  .font-weight-600-red {
+    font-size: 4rem;
+  }
+  .font-weight-600-black {
+    font-size: 1.5rem;
+  }
+  .help-btn {
+    // padding: 3rem;
+    width: 50px;
+    height: 50px;
+    margin: 2rem;
+  }
+  .font-weight-500-black {
+    font-size: 5rem;
+  }
+  .font-weight-500-grey {
+    font-size: 2rem;
+    color: #788089;
+  }
+  .font-weight-600-grey {
+    font-size: 2.5rem;
+  }
+  .counselling-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .grid-icons {
+    width: 70px;
+    height: 70px;
+  }
+  .font-weight-600-grid {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0a0a0a;
+  }
+}
+@media (max-width: 1300px) {
+  .font-weight-600-red {
+    font-size: 1.5rem;
+    color: #e92e3d;
+  }
+
+  .font-weight-600-black {
+    font-size: 0.7rem;
+  }
+  .font-weight-600-grey {
+    font-size: 1.4rem;
+    text-align: start;
+    align-items: center;
+  }
+  .navbar-items-font-size {
+    font-size: 0.8rem;
+  }
+}
+// @media (min-width: 768px) and (max-width: 1200px) {
+//   .navbar-items-font-size {
+//     font-size: 0.8rem;
+//     // padding: 1.2rem;
+//   }
+//   .font-weight-600-red {
+//     font-size: 1rem;
+//   }
+//   .font-weight-600-black {
+//     font-size: 1.1rem;
+//   }
+// }
+
+.grid-carousel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.grid-carousel-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 550px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    border-radius: 2px;
+  }
+
+  .emi-option-img {
+    grid-area: "one";
+    display: none;
+  }
+  .elective-option-img {
+    grid-area: "two";
+    display: none;
+  }
+  .scholarship-option-img {
+    grid-area: "three";
+    display: none;
+  }
+  .font-weight-500-black {
+    font-size: 1.8rem;
+  }
+  .font-weight-500-grey {
+    font-size: 1rem;
+    text-align: start;
+  }
+  .font-weight-600-grey {
+    font-size: 1rem;
+    text-align: start;
+    align-items: center;
+  }
+}
