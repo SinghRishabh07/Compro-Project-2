@@ -81,46 +81,7 @@
         </svg>
       </div>
     </div>
-    <!-- <div class="d-flex flex-column justify-content-center align-items-end bg-success d-lg-none">
-      <div class="row gap-2 align-items-end">
-        <div class="col-10">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="First name"
-            aria-label="First name"
-          />
-        </div>
-        <div class="col-10">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Last name"
-            aria-label="Last name"
-          />
-        </div>
-        <div class="col-10">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="First name"
-            aria-label="First name"
-          />
-        </div>
-        <div class="col-10">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Last name"
-            aria-label="Last name"
-          />
-        </div>
-      </div>
-
-
-    </div> -->
   </div>
-  <!-- !optional rendering -->
   <div class="container-fluid d-none d-sm-inline d-lg-none">
     <div
       class="grid-carousel"

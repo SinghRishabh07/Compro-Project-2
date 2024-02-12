@@ -5,7 +5,15 @@ export default defineNuxtConfig({
       typeCheck: true
     },
     css: ['~/assets/styles/custom.scss','~/assets/styles/main.scss'],
-    modules: ["nuxt-bootstrap-icons",'@nuxtjs/google-fonts']
+    modules: ["nuxt-bootstrap-icons",'@nuxtjs/google-fonts'],
+    app:{
+      head:{
+        title:"Compro Project",
+        meta:[
+          {name:"description", content: "Trying Nuxt for the first time"}
+        ]
+      }
+    }
     
-
+ 
 })

@@ -16,15 +16,15 @@
             </button>
             <ul class="dropdown-menu navbar-items-font-size">
               <li>
-                <NuxtLink class="dropdown-item" href="?"
+                <NuxtLink class="dropdown-item" to="/"
                   >Active Courses</NuxtLink
                 >
               </li>
               <li>
-                <NuxtLink class="dropdown-item" href="/">Live Courses</NuxtLink>
+                <NuxtLink class="dropdown-item" to="/">Live Courses</NuxtLink>
               </li>
               <li>
-                <NuxtLink class="dropdown-item" to="/about"
+                <NuxtLink class="dropdown-item" to="/"
                   >Recorded Lectures</NuxtLink
                 >
               </li>
@@ -103,7 +103,9 @@
                 </li>
                 <li class="nav-item px-3 dropdown">
                   <button type="button" class="btn btn-bg-color px-2 ms-2">
-                    SIGN UP
+                    <NuxtLink to="/loginPage" class="text-decoration-none btn-bg-color">
+                      SIGN UP
+                    </NuxtLink>
                   </button>
                 </li>
               </ul>

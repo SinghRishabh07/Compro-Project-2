@@ -1,10 +1,10 @@
 <template>
     <div id="main-container">
-        <div class="flex-grow-1">
+        <div >
             <Header/>
 
         </div>
-        <div class="flex-grow-1">
+        <div>
             <HomePageContent/>
 
         </div>
