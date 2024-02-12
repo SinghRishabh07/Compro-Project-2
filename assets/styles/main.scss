@@ -27,7 +27,6 @@ body {
   justify-content: space-between;
 }
 
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -118,7 +117,7 @@ body {
 }
 // !Login
 
-#login-page{
+#login-page {
   width: 100vw;
   height: 100vh;
   // background-color: brown;
@@ -126,37 +125,64 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Inter", sans-serif;
-
 }
-.loginpage-text-black-500{
+.loginpage-text-black-500 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
   color: #0a0a0a;
 }
 
-.loginpage-text-black-700{
+.loginpage-text-black-700 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 2rem;
   color: #0a0a0a;
-
 }
-.loginpage-container{
+.loginpage-container {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
 }
-.loginpage-heading{
+.loginpage-heading {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 2rem;
   color: #e92e3d;
 }
-.loginpage-link-style{
+.loginpage-link-style {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 2rem;
-  color:#0b5ed7 ;
+  color: #0b5ed7;
+}
+.offcanvas-font-500{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #0a0a0a;
+}
+.offcanvas-font-500-btn{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color: #e95454;
+  color: white;
+}
+.offcanvas-font-500-btn:hover{
+  border: 1px solid #0a0a0a;
+}
+
+.modal-font-500{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #0a0a0a;
+}
+.modal-font-500-btn{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color: #e95454;
+  color: white;
 }
 
 @media (min-width: 2000px) {
@@ -197,7 +223,7 @@ body {
     width: 50px;
     height: 50px;
   }
-  
+
   .grid-icons {
     width: 70px;
     height: 70px;
@@ -227,7 +253,6 @@ body {
     font-size: 0.8rem;
   }
 }
-
 
 @media (max-width: 550px) {
   .grid-container {
@@ -261,16 +286,14 @@ body {
     text-align: start;
     align-items: center;
   }
-  .loginpage-heading{
+  .loginpage-heading {
     font-size: 1.5rem;
   }
-  .loginpage-link-style{
-  font-size: 1rem;
+  .loginpage-link-style {
+    font-size: 1rem;
   }
-  .loginpage-text-black-500{
+  .loginpage-text-black-500 {
     font-size: 0.8rem;
     color: #0a0a0a;
   }
 }
-
-

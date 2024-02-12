@@ -5,17 +5,23 @@
         class="row d-flex flex-column align-items-center justify-content-center d-lg-flex flex-lg-row align-items-lg-center justify-content-lg-between p-3 gap-3 gap-lg-2"
       >
         <div
-          class="flex-lg=grow-1 col-12 col-lg-5 d-flex flex-column justify-content-center align-items-start d-md-flex flex-md-column justify-content-md-center align-items-md-center gap-3 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-start gap-lg-3 "
+          class="flex-lg=grow-1 col-12 col-lg-5 d-flex flex-column justify-content-center align-items-start d-md-flex flex-md-column justify-content-md-center align-items-md-center gap-3 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-start gap-lg-3"
         >
-          <div class="font-weight-500-black text-md-center text-lg-start">Degree Counselling</div>
+          <div class="font-weight-500-black text-md-center text-lg-start">
+            Degree Counselling
+          </div>
 
-          <div class="font-weight-500-grey text-start text-md-center  mx-md-5 mx-lg-0">
+          <div
+            class="font-weight-500-grey text-start text-md-center mx-md-5 mx-lg-0"
+          >
             Online Degree is a government approved qualification equivalent to
             an office/on-campus degree. Get to know your right fit with us at
             Degree Counselling
           </div>
 
-          <div class="btn border border-secondary rounded-pill mt-4 p-xxl-3">
+          <div
+            class="btn border border-secondary rounded-pill mt-4 p-xxl-3 position-relative"
+          >
             <div class="d-inline">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,17 +39,27 @@
                 />
               </svg>
             </div>
-            <div class="d-inline font-weight-500-grey ps-3 ">Book Free Counselling</div>
+            <div class="d-inline font-weight-500-grey ps-3">
+              Book Free Counselling
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                99+
+              </span>
+            </div>
           </div>
         </div>
         <div
-          class="col-12 col-lg-5 d-flex flex-column justify-content-center align-items-center gap-3 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-start gap-lg-3 p-3 "
+          class="col-12 col-lg-5 d-flex flex-column justify-content-center align-items-center gap-3 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-start gap-lg-3 p-3"
         >
           <h4 class="font-weight-600-grey text-md-center">
             We only recommend top rated programs
           </h4>
           <div class="container grid-container text-center">
-            <div class="font-weight-600 grid-content p-3 rounded-2 emi-option-img" id="emi-option-img">
+            <div
+              class="font-weight-600 grid-content p-3 rounded-2 emi-option-img"
+              id="emi-option-img"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -57,7 +73,10 @@
                 />
               </svg>
             </div>
-            <div class="font-weight-600 grid-content p-3 rounded-2 elective-option-img" id="elective-option-img">
+            <div
+              class="font-weight-600 grid-content p-3 rounded-2 elective-option-img"
+              id="elective-option-img"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -71,7 +90,10 @@
                 />
               </svg>
             </div>
-            <div class="font-weight-600 grid-content p-3 rounded-2 scholarship-option-img" id="scholarship-option-img">
+            <div
+              class="font-weight-600 grid-content p-3 rounded-2 scholarship-option-img"
+              id="scholarship-option-img"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -88,13 +110,22 @@
                 />
               </svg>
             </div>
-            <div class="font-weight-600-grid grid-content p-3 rounded-2 emi-option-text" id="emi-option-text">
+            <div
+              class="font-weight-600-grid grid-content p-3 rounded-2 emi-option-text"
+              id="emi-option-text"
+            >
               EMI Options
             </div>
-            <div class="font-weight-600-grid grid-content p-3 rounded-2 elective-option-text" id="elective-option-text">
+            <div
+              class="font-weight-600-grid grid-content p-3 rounded-2 elective-option-text"
+              id="elective-option-text"
+            >
               Choice of Electives
             </div>
-            <div class="font-weight-600-grid grid-content p-3 rounded-2 text-break scholarship-option-text" id="scholarship-option-text">
+            <div
+              class="font-weight-600-grid grid-content p-3 rounded-2 text-break scholarship-option-text"
+              id="scholarship-option-text"
+            >
               Scholarships
             </div>
           </div>
