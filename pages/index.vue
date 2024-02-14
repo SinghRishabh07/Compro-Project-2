@@ -1,26 +1,15 @@
 <template>
-    <div id="main-container">
-        <!-- <Helpline/> -->
-        <div >
-            <Header/>
+    <div class="signup-page">
+        <Signup />
 
-        </div>
-        <div>
-            <HomePageContent/>
-
-        </div>
-        <div>
-            <HomePageCarousel/>
-        </div>
     </div>
 </template>
 
-<script>
-
-
+<script setup>
 
 </script>
 
 <style lang="scss" scoped>
 
 </style>
+<!-- TODO: toggle logout and signUp according to the neeed -->

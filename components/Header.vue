@@ -105,13 +105,13 @@
                   </div>
                 </li>
                 <li class="nav-item px-3 dropdown">
-                  <button type="button" class="btn btn-bg-color px-2 ms-2">
-                    <NuxtLink
+                  <button type="button" class="btn btn-bg-color px-2 ms-2" @click="signOutHandler" >
+                    <!-- <NuxtLink
                       to="/loginPage"
                       class="text-decoration-none btn-bg-color"
-                    >
-                      SIGN UP
-                    </NuxtLink>
+                    > -->
+                      Logout
+                    <!-- </NuxtLink> -->
                   </button>
                 </li>
               </ul>
@@ -286,6 +286,17 @@ export default {
       this.documentVerification = '';
       this.recipientDescription = ''; 
       console.log("button clicked");
+    },
+    async signOutHandler(){
+      console.log("Sign out button clicked");
+      const result = await signOutUser();
+      console.log("User signed out : ",result);
+      if(result){
+        console.log(party);
+      }
+      else{
+        navigateTo('/loginPage');
+      }
     }
   }
 }
