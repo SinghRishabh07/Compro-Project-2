@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     typescript: {
       typeCheck: true
     },
-    css: ['~/assets/styles/custom.scss','~/assets/styles/main.scss'],
+    css: ['~/assets/styles/main.scss'],
     modules: ["nuxt-bootstrap-icons",'@nuxtjs/google-fonts','nuxt-vuefire'],
     app:{
       head:{
@@ -27,7 +27,5 @@ export default defineNuxtConfig({
         enabled: true
       },
     },
-
-    
  
 })

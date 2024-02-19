@@ -1,26 +1,18 @@
 <template>
     <div id="main-container">
         <!-- <Helpline/> -->
-        <div >
-            <Header/>
-
+        <div>
+            <Header />
         </div>
         <div>
-            <HomePageContent/>
-
+            <HomePageContent />
         </div>
         <div>
-            <HomePageCarousel/>
+            <HomePageCarousel />
         </div>
     </div>
 </template>
 
-<script>
+<script setup></script>
 
-
-
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

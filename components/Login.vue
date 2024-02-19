@@ -55,22 +55,10 @@
         </div>
       </div>
     </div>
-    <!-- <p>{{ formValues.email }}</p>
-    <p>{{ formValues.password }}</p> -->
   </div>
 </template>
 
 <script>
-export default {
-  data(){
-    return{
-      formValues:{
-        email: "",
-        password: "",
-      }
-    }
-  }
-};
 </script>
 
 <style lang="scss" scoped></style>
