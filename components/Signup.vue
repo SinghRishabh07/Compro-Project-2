@@ -73,6 +73,8 @@
 </template>
 
 <script setup>
+
+//! middleware
 // definePageMeta({
 //     middleware:['auth']
 // })
@@ -83,7 +85,9 @@ import {
     getRedirectResult,
 } from "firebase/auth";
 
-//? using google popUP
+
+
+//! using google popUP
 
 // const auth = getAuth();
 // const provider = new GoogleAuthProvider();

@@ -1,6 +1,7 @@
 <template>
-    <div id="main-container">
-        <Masterclass/>
+    <div>
+        <BookCounselling />
+        <ExistingCounselling/>
     </div>
 </template>
 

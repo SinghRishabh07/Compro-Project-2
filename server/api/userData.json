@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "description": "Software engineer"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 25,
+      "description": "Graphic designer"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "age": 35,
+      "description": "Marketing manager"
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "age": 28,
+      "description": "Teacher"
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "age": 40,
+      "description": "Business consultant"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Martinez",
+      "age": 32,
+      "description": "Nurse"
+    },
+    {
+      "id": 7,
+      "name": "Daniel Taylor",
+      "age": 27,
+      "description": "Journalist"
+    },
+    {
+      "id": 8,
+      "name": "Olivia Anderson",
+      "age": 33,
+      "description": "Architect"
+    }, 
+    {
+      "id": 9,
+      "name": "William Clark",
+      "age": 45,
+      "description": "Chef"
+    },
+    {
+      "id": 10,
+      "name": "Amanda White",
+      "age": 29,
+      "description": "Social media influencer"
+    }
+  ]
+  

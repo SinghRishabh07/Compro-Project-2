@@ -20,6 +20,7 @@
           </div>
 
           <div
+            @click="counsellingBtnHandler"
             class="btn border border-secondary rounded-pill mt-4 p-xxl-3 position-relative"
           >
             <div class="d-inline">
@@ -135,6 +136,12 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+const counsellingBtnHandler =()=>{
+  navigateTo('/counselling');
+}
+
+</script>
 
 <style lang="scss" scoped></style>

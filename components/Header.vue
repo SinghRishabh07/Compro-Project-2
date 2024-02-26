@@ -187,7 +187,7 @@
                                         type="text"
                                         class="form-control"
                                         id="recipient-fullname"
-                                        v-model="currentUserUsername"
+                                       
                                         readonly
                                     />
                                 </div>
