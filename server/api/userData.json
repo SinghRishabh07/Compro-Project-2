@@ -1,63 +1,92 @@
 [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "age": 30,
-      "description": "Software engineer"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "age": 25,
-      "description": "Graphic designer"
-    },
-    {
-      "id": 3,
-      "name": "Michael Johnson",
-      "age": 35,
-      "description": "Marketing manager"
-    },
-    {
-      "id": 4,
-      "name": "Emily Brown",
-      "age": 28,
-      "description": "Teacher"
-    },
-    {
-      "id": 5,
-      "name": "David Wilson",
-      "age": 40,
-      "description": "Business consultant"
-    },
-    {
-      "id": 6,
-      "name": "Sarah Martinez",
-      "age": 32,
-      "description": "Nurse"
-    },
-    {
-      "id": 7,
-      "name": "Daniel Taylor",
-      "age": 27,
-      "description": "Journalist"
-    },
-    {
-      "id": 8,
-      "name": "Olivia Anderson",
-      "age": 33,
-      "description": "Architect"
-    }, 
-    {
-      "id": 9,
-      "name": "William Clark",
-      "age": 45,
-      "description": "Chef"
-    },
-    {
-      "id": 10,
-      "name": "Amanda White",
-      "age": 29,
-      "description": "Social media influencer"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "John Doe",
+    "designation": "Software Engineer",
+    "description": "Experienced software engineer proficient in web development technologies."
+  },
+  {
+    "id": 2,
+    "name": "Alice Smith",
+    "designation": "UI/UX Designer",
+    "description": "Creative UI/UX designer with a passion for creating beautiful and user-friendly interfaces."
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "designation": "Data Scientist",
+    "description": "Data scientist specializing in machine learning algorithms and data analysis."
+  },
+  {
+    "id": 4,
+    "name": "Emily Brown",
+    "designation": "Marketing Manager",
+    "description": "Marketing manager with a strong background in digital marketing strategies."
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "designation": "Financial Analyst",
+    "description": "Financial analyst with expertise in financial modeling and forecasting."
+  },
+  {
+    "id": 6,
+    "name": "Sarah Thompson",
+    "designation": "Human Resources Manager",
+    "description": "HR manager experienced in recruitment, employee relations, and performance management."
+  },
+  {
+    "id": 7,
+    "name": "Daniel Martinez",
+    "designation": "Project Manager",
+    "description": "Project manager skilled in leading cross-functional teams and delivering successful projects."
+  },
+  {
+    "id": 8,
+    "name": "Olivia Garcia",
+    "designation": "Content Writer",
+    "description": "Creative content writer with a knack for crafting engaging and informative content."
+  },
+  {
+    "id": 9,
+    "name": "William Rodriguez",
+    "designation": "Sales Executive",
+    "description": "Sales executive with a proven track record of driving revenue growth and building client relationships."
+  },
+  {
+    "id": 10,
+    "name": "Sophia Hernandez",
+    "designation": "Graphic Designer",
+    "description": "Talented graphic designer proficient in Adobe Creative Suite."
+  },
+  {
+    "id": 11,
+    "name": "James Lee",
+    "designation": "Systems Administrator",
+    "description": "Systems administrator experienced in managing IT infrastructure and ensuring system reliability."
+  },
+  {
+    "id": 12,
+    "name": "Emma Taylor",
+    "designation": "Customer Success Manager",
+    "description": "Customer success manager dedicated to ensuring customer satisfaction and retention."
+  },
+  {
+    "id": 13,
+    "name": "Liam Clark",
+    "designation": "Network Engineer",
+    "description": "Network engineer specializing in designing and implementing secure and scalable network solutions."
+  },
+  {
+    "id": 14,
+    "name": "Ava Lewis",
+    "designation": "Product Manager",
+    "description": "Product manager with expertise in product development and roadmap planning."
+  },
+  {
+    "id": 15,
+    "name": "Noah Hall",
+    "designation": "Quality Assurance Engineer",
+    "description": "Quality assurance engineer focused on ensuring the quality and reliability of software products."
+  }
+]

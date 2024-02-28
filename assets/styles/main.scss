@@ -19,6 +19,25 @@ body {
   justify-content: space-between;
 }
 
+.card-masterclass{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cursor-style-default{
+  cursor: default;
+}
+.cursor-style-pointer{
+  cursor: pointer;
+}
+#masterclass-container{
+  width: 100vw;
+  height: 100vh;
+  // background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -176,6 +195,8 @@ body {
   background-color: #e95454;
   color: white;
 }
+
+
 
 @media (min-width: 2000px) {
   .btn-bg-color {

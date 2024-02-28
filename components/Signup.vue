@@ -109,15 +109,15 @@ const googleHandler = async () => {
     
 };
 onMounted(async () => {
-    console.log("Page mounted");
+    // console.log("Page mounted");
     try {
         const results = await getRedirectResult(auth);
         if (results) {
-            console.log(results);
+            // console.log(results);
             navigateTo("/");
         }
     } catch(error) {
-        console.log(error);
+        throw createError(error);
     }
    
 });
